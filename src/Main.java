@@ -10,7 +10,7 @@ public class Main {
     public static double calculateWaitingCharge(int minutes){
        return minutes*5;
     }
-
+//Check weter it's the night time
     public static boolean isNightTime(int hour){
         if (hour>=22 || hour<=5){
             return true;
