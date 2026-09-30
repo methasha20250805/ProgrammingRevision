@@ -1,4 +1,5 @@
 public class Main {
+    //Calculate the base fare
     public static double calculateBaseFare(double km){
         if (km<1){
             return 100.00;
