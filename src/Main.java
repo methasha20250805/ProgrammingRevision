@@ -10,13 +10,14 @@ public class Main {
     public static double calculateWaitingCharge(int minutes){
        return minutes*5;
     }
-//Check weter it's the night time
+//Check wheter it's the nighttime
     public static boolean isNightTime(int hour){
         if (hour>=22 || hour<=5){
             return true;
         }
         return false;
     }
+    //Calculate the surcharge
     public static double calculateNightSurcharge(double subtotal, int hour) {
        if (isNightTime(hour)){
            return  (subtotal/100*20);
