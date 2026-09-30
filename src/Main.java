@@ -6,7 +6,7 @@ public class Main {
         }
         return 100.00 + ((km-1)*80.00);
     }
-
+//Calculate the waiting charge
     public static double calculateWaitingCharge(int minutes){
        return minutes*5;
     }
