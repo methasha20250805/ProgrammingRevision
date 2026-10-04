@@ -24,6 +24,7 @@ public class Main {
        }
         return 0.00;
     }
+    //Print function
     public static void printReceipt(double km, int minutes, int hour) {
         double baseFare = calculateBaseFare(km);
         double waitingCharge = calculateWaitingCharge(minutes);
