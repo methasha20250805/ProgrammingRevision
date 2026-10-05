@@ -25,7 +25,7 @@ public class Q2 {
         }
         return highestIndex;
     }
-
+// Calculate the ducks
     public static int countDucks(int[] runs){
         int count = 0;
         for (int i=0; i<runs.length; i++){
