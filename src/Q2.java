@@ -7,7 +7,7 @@ public class Q2 {
         }
         return sum;
     }
-
+// To calculate  the strike rate
     public static double strikeRate(int runs,int balls){
         if(balls==0){
             return 0;
