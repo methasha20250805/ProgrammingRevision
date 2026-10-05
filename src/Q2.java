@@ -1,4 +1,5 @@
 public class Q2 {
+ //To calculate the sum of the array
     public static int sum(int[] values){
         int sum = 0;
         for (int value : values){
