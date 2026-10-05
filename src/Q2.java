@@ -14,7 +14,7 @@ public class Q2 {
         }
         return runs*100.0/balls;
     }
-
+// Calculate the top score
     public static int topScorerIndex(int[] runs){
         int highestIndex = 0;
 
