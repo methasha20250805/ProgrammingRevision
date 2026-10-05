@@ -74,7 +74,7 @@ public class Q2 {
 
 
         }
-
+// Print the score
     public static void main(String[] args) {
         String[] names = {"Nimal", "Pathum", "Ruwan", "Saman", "Dinesh"};
         int[] runs = {45, 12, 78, 0, 33};
